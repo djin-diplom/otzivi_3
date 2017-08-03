@@ -15,7 +15,7 @@ $REQUEST_URI = $_SERVER['REQUEST_URI'];
 
 
 
-//$REQUEST_URI = $main_name.$REQUEST_URI;
+$REQUEST_URI = $main_name.$REQUEST_URI;
 
 //$REQUEST_URI = str_replace( 'znaniumbaza_ru', 'rosdiplom_ru', $REQUEST_URI  );
 
