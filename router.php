@@ -113,7 +113,7 @@ $mainContent = str_replace("href='http://studotzyv.ru/raiting","href='".$main_na
 $mainContent = str_replace("href='http://studotzyv.ru/otzyv","href='".$main_name."/otzyv", $mainContent  );
 $mainContent = str_replace("55.753994, 37.622093", "59.76351, 30.35746", $mainContent  );
 $mainContent = str_replace('icon-home">', 'icon-home">Главная', $mainContent  );
-$mainContent = str_replace('/каpта-cайта/', '', $mainContent );
+$mainContent = str_replace('каpта-cайта', '', $mainContent );
 
 
 
