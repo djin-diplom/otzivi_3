@@ -88,8 +88,8 @@ $mainContent = str_replace('rosdiplom', 'znaniumbaza', $mainContent  );
 $mainContent = str_replace("src='/wp-content/", "src='".$donor_name."/wp-content/", $mainContent  );
 $mainContent = str_replace('Москва, ул.Сретенка, д.27/29, стр 1', 'г. Санкт-Петербург, ул. Лермонтова, дом № 8, oф. 184-185', $mainContent  );
 $mainContent = str_replace('<span class="city">Москва:</span> +7495 9874136', 'Компания работает без телефонных менеджеров', $mainContent  );
-$mainContent = str_replace('<span class="city">Санкт-Петербург:</span> +7812 4485335', '', $mainContent  );
-$mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', '', $mainContent  );
+$mainContent = str_replace('<span class="city">Санкт-Петербург:</span> +7812 4485335', 'Пишите на почту', $mainContent  );
+$mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', 'Используйте форму заказа на сайте', $mainContent  );
 $mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cDovL3d3dy5yb3NkaXBsb20ucnU=', 'http://znaniumbaza.ru/', $mainContent  );
 $mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cDovL3Jvc2RpcGxvbS5ydS96YWthei9mYXN0Lz9yZWY9c3R1ZG90enl2', 'http://znaniumbaza.ru/order.php', $mainContent  );
 
