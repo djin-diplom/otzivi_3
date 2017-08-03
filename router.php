@@ -18,7 +18,7 @@ $REQUEST_URI = $_SERVER['REQUEST_URI'];
 $REQUEST_URI = $main_name.$REQUEST_URI;
 
 //$REQUEST_URI = str_replace( 'znaniumbaza_ru', 'rosdiplom_ru', $REQUEST_URI  );
-$REQUEST_URI = str_replace('/каpта-cайта/', '/карта-сайта/', $REQUEST_URI );
+
 $REQUEST_URI = str_replace($main_name, $donor_name, $REQUEST_URI );
 $contentTitle = str_replace('znaniumbaza', 'rosdiplom', $REQUEST_URI );
 
@@ -113,6 +113,7 @@ $mainContent = str_replace("href='http://studotzyv.ru/raiting","href='".$main_na
 $mainContent = str_replace("href='http://studotzyv.ru/otzyv","href='".$main_name."/otzyv", $mainContent  );
 $mainContent = str_replace("55.753994, 37.622093", "59.76351, 30.35746", $mainContent  );
 $mainContent = str_replace('icon-home">', 'icon-home">Главная', $mainContent  );
+$mainContent = str_replace('/каpта-cайта/', '', $mainContent );
 
 
 
