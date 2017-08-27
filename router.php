@@ -118,6 +118,7 @@ $mainContent = str_replace('icon-home">', 'icon-home">Главная', $mainCont
 $mainContent = str_replace('карта-сайта', 'wlfjekgjt', $mainContent );
 $mainContent = str_replace('src="/images/', 'src="'.$donor_name.'/images/', $mainContent );
 $mainContent = str_replace('class="job_filters"', 'action="'.$main_name.'"', $mainContent );
+$mainContent = str_replace("class='comment-reply-link' href='http://uznaika.su", "class='comment-reply-link' href='".$main_name, $mainContent );
 
 
 
