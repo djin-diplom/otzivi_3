@@ -87,7 +87,7 @@ $mainContent = str_replace('Rosdiplom', 'Znaniumbaza', $mainContent  );
 $mainContent = str_replace('rosdiplom', 'znaniumbaza', $mainContent  );
 $mainContent = str_replace("src='/wp-content/", "src='".$donor_name."/wp-content/", $mainContent  );
 $mainContent = str_replace('Москва, ул. Сретенка, д.27/29, стр 1', 'г. Санкт-Петербург, ул. Лермонтова, дом № 8, oф. 184-185', $mainContent  );
-$mainContent = str_replace('<span class="city">Москва:</span> +7495 9874136', 'Компания с 2013 года работает без телефонных менеджеров', $mainContent  );
+$mainContent = str_replace('<span class="city">Москва:</span> +7 (495) 987-41-36', 'Компания с 2013 года работает без телефонных менеджеров', $mainContent  );
 $mainContent = str_replace('<span class="city">Санкт-Петербург:</span> +7812 4485335', 'Это существенно снижает стоимость работ', $mainContent  );
 $mainContent = str_replace('<span class="city">Волгоград:</span> +78442 986161', 'Используйте форму заказа на сайте, пишите на почту', $mainContent  );
 $mainContent = str_replace('http://studotzyv.ru/rel.php?id=aHR0cDovL3d3dy5yb3NkaXBsb20ucnU=', 'http://znaniumbaza.ru/', $mainContent  );
