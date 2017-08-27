@@ -114,7 +114,7 @@ $mainContent = str_replace("href='http://studotzyv.ru/otzyv","href='".$main_name
 $mainContent = str_replace("55.753994, 37.622093", "59.76351, 30.35746", $mainContent  );
 $mainContent = str_replace('icon-home">', 'icon-home">Главная', $mainContent  );
 $mainContent = str_replace('карта-сайта', 'wlfjekgjt', $mainContent );
-$mainContent = str_replace('src="/images/', 'src='.$donor_name.'"/images/', $mainContent );
+$mainContent = str_replace('src="/images/', 'src="'.$donor_name.'/images/', $mainContent );
 
 
 
