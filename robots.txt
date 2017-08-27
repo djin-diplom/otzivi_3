@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Host: vivadip.xyz
+Host: uznai.esy.es
