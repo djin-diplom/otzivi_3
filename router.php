@@ -29,7 +29,7 @@ $contentTitle = str_replace('znaniumbaza', 'rosdiplom', $REQUEST_URI );
 $mainContent = file_get_contents($contentTitle);
 
 
-$mainContent = str_replace('http://studotzyv.ru/wp-content/uploads/2010/05/www.rosdiplom.ru_-150x150.png', $main_name.'/fi/baza.png', $mainContent  );
+$mainContent = str_replace('http://uznaika.su/wp-content/uploads/2015/09/rosdiplom.jpg', $main_name.'/fi/baza.png', $mainContent  );
 
 //$mainContent = str_replace('url(/fi', 'url('.$donor_name.'/fi', $mainContent  );
 //$mainContent = str_replace('src="http', 'gfhtyur', $mainContent  );
