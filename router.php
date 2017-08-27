@@ -37,11 +37,13 @@ $mainContent = str_replace('http://uznaika.su/wp-content/uploads/2015/09/Rosdipl
 //$mainContent = str_replace('mobile-title" href="http://studotzyv.ru/"', 'qoferiid', $mainContent  );
 $mainContent = str_replace("src='http", 'sfdfhla', $mainContent  );
 $mainContent = str_replace("href='http", 'miiahfd', $mainContent  );
+$mainContent = str_replace("http://uznaika.su/wp-content/", 'qheijdifj', $mainContent  );
 $mainContent = str_replace($donor_name, $main_name, $mainContent  );
 //$mainContent = str_replace('gfhtyur', 'src="http',  $mainContent  );
 //$mainContent = str_replace('gftyur_2','href="http',  $mainContent  );
 $mainContent = str_replace('sfdfhla',"src='http",  $mainContent  );
 $mainContent = str_replace('miiahfd', "href='http", $mainContent  );
+$mainContent = str_replace('qheijdifj', "http://uznaika.su/wp-content/", $mainContent  );
 //$mainContent = str_replace('src="', 'src="'.$donor_name, $mainContent  );
 //$mainContent = str_replace('href="/templates/', 'href="'.$donor_name.'/templates/', $mainContent  );
 //$mainContent = str_replace('href="/3d-corner-ribbons.css"', 'href="'.$donor_name.'/3d-corner-ribbons.css"', $mainContent  );
